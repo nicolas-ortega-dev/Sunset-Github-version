@@ -1,0 +1,5 @@
+Options -Indexes
+# Nada que se suba aqui debe poder ejecutarse como codigo.
+<FilesMatch "\.(php|phtml|phar)$">
+    Require all denied
+</FilesMatch>
